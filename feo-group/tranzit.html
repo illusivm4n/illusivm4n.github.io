@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Транзитная реклама</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="modal1" class="modal modal-fixed-footer">
+        <form class="col s12" id="form">
+            <div class="modal-content center">
+                <h5 class="purple-text">Обратная связь</h5>
+                <div class="row" style="margin-bottom: 0!important;">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">account_circle</i>
+                        <input id="icon-prefix-1" type="text" name='name' class="validate my-border" required>
+                        <label for="icon-prefix-1" class="purple-text">Имя и компания</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">phone</i>
+                        <input id="icon-telephone" type="tel" pattern="^[+, 0-9]+$" name='phone' class="validate my-border" required>
+                        <label for="icon-telephone" class="purple-text">Телефон</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">email</i>
+                        <input id="email" type="email" name='email' class="validate my-border" required>
+                        <label for="email" class="purple-text">E-mail</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">message</i>
+                        <textarea id="icon-prefix-3" name='message' type="text" class="validate my-border" required></textarea>
+                        <label for="icon-prefix-3" class="purple-text">Ваш Запрос</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-footer" style="margin-top: 0 !important;">
+                <button type="submit" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                <a class="modal-close waves-effect waves-light red white-text btn-flat">Закрыть</a>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div id="info-wrapper">
+        <div class="container" style="padding-top: 5px;" id="top">
+            <div class="row" style="margin-bottom: 10px!important;">
+                <p class="left col s12 l3 center heading">Рекламное агентство полного цикла FEO Group</p>
+                <span class='col s12 l3 center info tel'>
+                    <i class="fas fa-phone phone"></i>+38 (095) 33 69 529</span>
+                <span class='info col s12 l3 center'>
+                    <i class="far fa-envelope" style='margin-right: 5px;'></i>Pheugroup@gmail.com</span>
+                <div class="col s12 l3 center">
+                    <div class="click modal-trigger" href="#modal1">
+                        <i class="fab fa-wpforms" style="margin-right: 5px;"></i>Заявка</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                </li>
+                    </ul>
+                   
+            </ul>
+            
+                    <ul id="dropdown2" class="dropdown-content">
+                        <li>
+                            <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                        </li>
+                        </ul>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <a href="aboutus.html">О компании</a>
+                </li>
+                <li>
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown2">Наши услуги
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Портфолио</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid" id="for_menu">
+        <nav id='main'>
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.jpg">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down menu">
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Кто мы и как работаем"
+                            href="aboutus.html">О компании</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 8%!important;" class="dropdown-trigger-1 waves-effect waves-light" href="#!" data-target="dropdown1">Наши услуги
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Наши работы, клиенты, разработка макетов, Техтребования"
+                            href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 13%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Оставьте заявку и мы свяжимся с вами"
+                            id="last" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container" id="bg">
+        <div class="parallax">
+            <img style="width: 95%;" src="images/metro/Без имени.png">
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background: #fff;">
+            <div class="container">
+                    <div class="row" id="hlinks">
+                                <a href="reklof.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Наружная реклама</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="smi.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама СМИ</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="tranzit.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в/на транспорте</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="#!" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Интернет маркетинг</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="#1" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Внутренняя Indoor-реклама</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="aero.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в аэропортах, ЖД вокзалах</a>
+                                <a href="lift.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в домах</a>
+                           
+                        </div>
+                    </div> 
+        <div class="container" style="padding: 50px 0px 50px;">
+            <div class="row">
+                <div class="col s12" style="margin-bottom: 40px;">
+                    <ul class="tabs">
+                        <li class="tab col s4">
+                            <a target="_self" href="tranzit.html" class="active">Реклама в метро</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a target="_self" href="marsh.html">Реклама в/на транспорте</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a target="_self" href="inter.html">Реклама в поездах Интерситих</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="metro-wrapper">
+                    <h3 style="margin: 15px;" class="new-color">Реклама в метро</h3>
+                    <div class="divider"></div>
+                    <h5 style="margin-top: 30px !important; margin-bottom: 30px;" class="new-color">Разместим вашу рекламу в метрополитене Киева, Харькова, Днепра!</h5>
+                    <p style="padding-bottom: 30px; font-family: 'Lora', serif;" class="def-color">
+                        <span class="new-color">Реклама в метро</span> предполагает более длительный контакт зрителя с картинкой, ведь в ожидании
+                        поезда пассажир находится на перроне в течение 3-5 минут и, следовательно, воспринимает рекламу более
+                        осознано. Реклама, размещенная в самих вагонах метро, не только делает интерьер вагона более привлекательным.
+                        Здесь пассажиры находятся, порой, достаточно длительный промежуток времени, и они с удовольствием
+                        коротают его, разглядывая красочные стикеры на дверях и плакаты в простенках вагонов. Это дает возможность
+                        не только детально изучить рекламу, но и запомнить адрес и телефоны конкретного магазина или другого
+                        рекламируемого учреждения. Начните сотрудничать с
+                        <span class="new-color">«FEO Group»</span> и Вас приятно удивит составленная программа и стоимость размещения рекламы в метро.</p>
+                    <p style="padding-bottom: 30px; font-family: 'Lora', serif;" class="def-color">В метрополитене присутствует достаточно большое количество рекламоносителей, рассмотрим основные из них.</p>
+                    <div class="divider"></div>
+                    <h3 class="center new-color" style="padding-bottom: 30px;">ПРОЕДЕМСЯ!</h3>
+                    <div class="center">
+                        <img src="images/metro/train.jpg" width="210" height="180">
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Наклейка на дверях вагона</h5>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/doorswagon-1.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/windowleaf_5.jpg" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Наклейка на форточке вагона</h5>
+                        </div>
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Наклейка на окне вагона</h5>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/okno_kiev.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/doors.jpg" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Брендирование вагонов внутри и снаружи</h5>
+                        </div>
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Брендирование переходов и станций</h5>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/citrus.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/8.jpg" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <p style="margin-top: 50px !important; font-family: 'Lora', serif;" data-aos="fade-down" class="def-color">
+                                <span class="new-color">Эскалаторный свод на станциях, щиты вдоль эскалаторов - </span>это идеальное средство для
+                                организации имиджевой поддержки продвигаемого бренда. Задерживают внимание пассажиров на
+                                6-10 секунд при спуске или подъеме
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <p style="margin-top: 50px!important; font-family: 'Lora', serif;" data-aos="fade-down" class="def-color">
+                                <span class="new-color">Путевая стена на платформах станций, реклама на постерах вдоль станционных платформ </span>обеспечивает
+                                одновременно широкий охват аудитории и весьма продолжительное время экспозиции. В ожидании
+                                метропоезда у пассажиров достаточно времени, чтобы познакомиться с постерами на путевых стенах.</p>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/platform.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/flagi.png" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Флаги на колонах станций</h5>
+                        </div>
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos="fade-down" class="new-color">Двери метро вход/выход на станциях</h5>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/1.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/Be`klayt.jpg" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <p style="margin-top: 50px !important; font-family: 'Lora', serif;" data-aos="fade-down" class="def-color">
+                                <span class="new-color">Беклайты, ситилайты на станциях метро - </span>обычно установлены в вестибюлях и переходах
+                                станций метро. Стоимость размещения щита зависит от его размера и выбранной станции. Станции
+                                метрополитена делятся на три группы важности. К 1-ой группе относятся станции с максимальным
+                                пассажиропотоком. Цена станции адекватна пропускной способности в час-пик.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <h5 style="margin-top: 100px;" data-aos=fade-down class="new-color">Проекторы на станциях метро</h5>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/x5.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/videomonitory.jpg" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <p style="margin-top: 50px !important; font-family: 'Lora', serif;" data-aos="fade-down" class="def-color">
+                                <span class="new-color">Мониторы на станциях метро - </span>Плазменные панели работают 19 часов в сутки (с 6:00 до
+                                1:00), семь дней в неделю. Время демонстрации разбито на пятиминутные блоки. Каждый пятиминутный
+                                блок содержит шестнадцать 15-секундных сегментов. Один из самым молодых видов рекламы, стре
+                                мительно развивающийся, увеличивая количество мониторов и станций.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row rails">
+                        <div class="col s12 l5">
+                            <p style="margin-top: 15px !important; font-family: 'Lora', serif;" data-aos="fade-down" data-aos="fade-down" class="def-color">
+                                <span class="new-color">Метролайты на эскалаторах станций - </span>представляет собой двухсторонний световой короб,
+                                расположившийся вдоль балюстрады эскалаторов.Такая реклама при правильном дизайнерском оформлении
+                                оригинал макета будет завлекать вашу целевую аудиторию. Рекламные компании подойдут не только
+                                для продвижения нового товара, но и для укрепления положительного имиджа уже известных брендов
+                                и торговых марок.
+                            </p>
+                        </div>
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <img src="images/metro/esk.jpg" data-aos="flip-up" class="col s12 l5">
+                    </div>
+                    <div class="row rails">
+                        <img src="images/metro/mcd.jpg" data-aos="flip-up" class="col s12 l5">
+                        <img src="images/metro/rail.jpg" class="col s12 l2">
+                        <div class="col s12 l5">
+                            <p style="margin-top: 20px !important; font-family: 'Lora', serif;" data-aos="fade-down" class="def-color">
+                                <span class="new-color">Лайтбокс указателей на станциях - </span>представляет собой двухсторонний световой короб,
+                                их размещают в качестве информационных указателей, для привлечения внимания пассажиров на
+                                определенной станции. Яркая подсветка сделает свое дело — и целевая аудитория увидит Ваше
+                                рекламное послание и, безусловно, запомнит его. Лайтбоксы бывают самых различных размеров,
+                                но плакат можно повторно использовать.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <img style="height: 200px; margin-top: 50px; margin-bottom: 50px;" src="images/svetofor.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid white">
+                <div class="container">
+                    <h5 class="center white purple-text" style="margin: 0 !important; padding-bottom: 60px;">Вы можете связаться с нами по телефону +38 (095) 336 95 29, почте pheugroup@gmail.com или оставить заявку и мы
+                        вам перезвоним
+                    </h5>
+                </div>
+            </div>
+        <div class="parallax-container" style="height: 100%!important; z-index: 100; padding: 0 !important;">
+                <div class="parallax">
+                <img src="images/leaves-alt1.jpg">
+                </div>
+                <div class="leave-query center">
+                <div class="row" style="margin-top: 50px;">
+                    <form class="col s12 l6 offset-l3" id='form2'>
+                        <h5 class="teal-text text-lighten-4">Обратная связь</h5>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix purple-text teal-text text-lighten-4">account_circle</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="first_name" name="name" type="text" class="my-border validate"
+                                    required>
+                                <label for="first_name">Имя</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix purple-text">phone</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="phone" type="tel" pattern="^[+, 0-9]+$"
+                                    name="phone" class="my-border validate" required>
+                                <label for="phone">Телефон</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix purple-text">email</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="email" type="email" name="email" class="my-border validate"
+                                    required>
+                                <label for="email">E-mail</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix purple-text">message</i>
+                                <textarea autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="message" name="message" class="my-border validate"
+                                    required></textarea>
+                                <label for="message">Сообщение</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <button type="submit" style="margin-left: 25px;" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                    </form>
+                </div>
+                </div>
+                </div>
+                </div>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s12">
+                    <h5>О нас</h5>
+                    <p>Рекламное Агентство FEO Group имеет большой опыт работы в области рекламы. Мы уверены, что Ваша компания
+                        в лице нашего агентства найдет надежного, качественного и оперативного партнера - для продвижения
+                        Ваших товаров и услуг в городах Украины.</p>
+                    <div class="btn new-btn-2 btn-large modal-trigger" href="#modal1">
+                        <i class="fab cl fa-wpforms"></i>Оставить заявку</div>
+                </div>
+                <div class="col l3 offset-l1 s12">
+                    <h5>Услуги</h5>
+                    <ul id="last-ul">
+                            <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Наружная реклама</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Реклама в СМИ</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!"> Реклама в/на транспорте</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                                </li>
+                    </ul>
+                    <a href="#!" class="more waves-effect waves-light">Подробнее</a>
+                </div>
+                <div class="col l4 s12">
+                    <h5>Время работы:</h5>
+                    <div class="row center">
+                        <ul id="last-ul-2" style="cursor: pointer;">
+                            <div class="day col s3 l3">Понедельник</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Вторник</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3" style="margin-left: -5px;">Среда</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Четверг</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Пятница</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Суббота</div>
+                            <div class="status col s9 l9">Закрыто</div>
+                            <div class="day col s3 l3">Воскресенье</div>
+                            <div class="status col s9 l9">Закрыто</div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row" id="footer-row">
+                    <span class="col s12 l4">© 2018 Copyright Text</span>
+                    <a href="#!" class="col s12 l4 last-link grey-text text-lighten-4">Вы знаете как заказать рекламу?</a>
+                    <a class="grey-text text-lighten-4 col s12 l4" style="font-family: cursive; font-size: 14px;" href="#!">Звоните по телефону: +38 (095) 336 95 29</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div style='display: none;' class="fixed-action-btn arrow-up">
+        <a href='#top' class="btn-floating btn-large arrow waves-effect waves-light right">
+            <i class="material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/tab-script.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine',
+            duration: 700
+        });
+    </script>
+
+</body>
+
+</html>

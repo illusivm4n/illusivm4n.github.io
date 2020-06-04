@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/outside.css"> -->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <!-- <link rel="stylesheet" href="css/slider_out.css"> -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Промоутеры</title>
+</head>
+
+<body>
+
+    <div id="modal1" class="modal modal-fixed-footer">
+        <form class="col s12" id="form">
+            <div class="modal-content center">
+                <h5 class="purple-text">Обратная связь</h5>
+                <div class="row" style="margin-bottom: 0!important;">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">account_circle</i>
+                        <input id="icon-prefix-1" type="text" name='name' class="validate my-border" required>
+                        <label for="icon-prefix-1" class="purple-text">Имя и компания</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">phone</i>
+                        <input id="icon-telephone" type="tel" pattern="^[+, 0-9]+$" name='phone' class="validate my-border" required>
+                        <label for="icon-telephone" class="purple-text">Телефон</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">email</i>
+                        <input id="email" type="email" name='email' class="validate my-border" required>
+                        <label for="email" class="purple-text">E-mail</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">message</i>
+                        <textarea id="icon-prefix-3" name='message' type="text" class="validate my-border" required></textarea>
+                        <label for="icon-prefix-3" class="purple-text">Ваш Запрос</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-footer" style="margin-top: 0 !important;">
+                <button type="submit" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                <a class="modal-close waves-effect waves-light red white-text btn-flat">Закрыть</a>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div id="info-wrapper">
+        <div class="container" style="padding-top: 5px;" id="top">
+            <div class="row" style="margin-bottom: 10px!important;">
+                <p class="left col s12 l3 center heading">Рекламное агентство полного цикла FEO Group</p>
+                <span class='col s12 l3 center info tel'>
+                    <i class="fas fa-phone phone"></i>+38 (095) 33 69 529</span>
+                <span class='info col s12 l3 center'>
+                    <i class="far fa-envelope" style='margin-right: 5px;'></i>Pheugroup@gmail.com</span>
+                <div class="col s12 l3 center">
+                    <div class="click modal-trigger" href="#modal1">
+                        <i class="fab fa-wpforms" style="margin-right: 5px;"></i>Заявка</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                </li>
+                    </ul>
+                   
+            </ul>
+            
+                    <ul id="dropdown2" class="dropdown-content">
+                        <li>
+                            <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                        </li>
+                        </ul>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <a href="aboutus.html">О компании</a>
+                </li>
+                <li>
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown2">Наши услуги
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Портфолио</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid" id="for_menu">
+        <nav id='main'>
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.jpg">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down menu">
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Кто мы и как работаем"
+                            href="aboutus.html">О компании</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 8%!important;" class="dropdown-trigger-1 waves-effect waves-light" href="#!" data-target="dropdown1">Наши услуги
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Наши работы, клиенты, разработка макетов, Техтребования"
+                            href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 13%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Оставьте заявку и мы свяжимся с вами"
+                            id="last" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container" id="bg">
+        <div class="parallax">
+            <img src="images/2802promo.png">
+        </div>
+    </div>
+   
+
+    <div class="container-fluid" style="background: #fff; padding-top: 50px!important">
+            <div class="row">
+                    <div class="container">
+                            <div class="row" id="hlinks">
+                                        <a href="reklof.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Наружная реклама</a>
+                                        <!-- <div class="col s1 l1"></div>  -->
+                                        <a href="smi.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама СМИ</a>
+                                        <!-- <div class="col s1 l1"></div>  -->
+                                        <a href="tranzit.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в/на транспорте</a>
+                                        <!-- <div class="col s1 l1"></div>  -->
+                                        <a href="#!" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Интернет маркетинг</a>
+                                        <!-- <div class="col s1 l1"></div>  -->
+                                        <a href="#1" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Внутренняя Indoor-реклама</a>
+                                        <!-- <div class="col s1 l1"></div>  -->
+                                        <a href="aero.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в аэропортах, ЖД вокзалах</a>
+                                        <a href="lift.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в домах</a>
+                                   
+                                </div>
+                            </div> 
+                    <div class="col s12" style="margin-bottom: 40px;">
+                        <ul class="tabs">
+                            <li class="tab col s6 l6">
+                                <a target="_self" href="prom.html" class="active"> "Промо/BTL-акции</a>
+                            </li>
+                            <li class="tab col s6 l6">
+                                <a target="_self" href="lift.html">Реклама в лифтах</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        <div class="container">
+            <p style="padding-bottom: 30px; color: #3A3A3A; font-family: 'Lora', serif; font-size: 15px;">
+                <span class="new-color">BTL услуги - </span>реклама представляет собой инструмент прямого воздействия на потребителя, который побуждает
+                совершить покупку.
+                <span class="new-color">BTL - </span>реклама может использоваться самостоятельно или быть частью целого маркетингового комплекса.
+            Важно понимать, что
+                <span class="new-color">BTL-реклама</span> направлена на вовлечение покупателя в процесс знакомства с товаром и воздействие на его
+                принятие решения о целесообразности покупки, помогает убедить клиента в важности, нужности и полезности товара.
+        
+            Объём рынка
+                <span class="new-color">BTL</span> в 2017 году показывал хорошие темпы роста. Это указывает на то, что коммуникации с клиентами в
+                кризисное время стоит делать максимально персонализированными.</p>
+            <h5 class="new-color">Наше рекламное агентство предоставляет BTL услуги по:</h5>
+            <div class="esp">
+                <ul class="list_prom" style="font-size: 15px;">
+                    <li style="font-family: 'Lora', serif;"><i>- Раздача промоутерами, хостесом, аниматорами листовок, флаеров, визиток, буклетов, пригласительных;</i></li>
+                    <li style="font-family: 'Lora', serif;"><i>- Курьерская доставка листовок, буклетов, газет по почтовым ящикам;</i></li>
+                    <li style="font-family: 'Lora', serif;"><i>- Расклейка объявлений, афиш, плакатов;</i></li>
+                    <li style="font-family: 'Lora', serif;"><i>- Распространение хенгеров по дверным ручкам;</i></li>
+                </ul>
+            </div>
+            <h5 class="new-color">Принципы и преимущества:</h5>
+
+            <ul class="list_prom">
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Оперативность, возможность исполнения в кратчайшие сроки;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- В озможность выборочных локаций по распространению;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Фотоотчет о проделанной работе и контроль работы промоутеров;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Один из наименее затратных видов рекламных услуг.</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Полное сопровождение: дизайн макетов, печать, доставка полиграфии.</li>
+            </ul>
+
+            <h5 class="new-color">Что дает распространение полиграфии? Ваша продукция не останется незамеченной. А это означает:</h5>
+
+            <ul class="list_prom">
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Рост продаж;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Продвижение на рынке;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Привлечение покупателей.</li>
+            </ul>
+
+            <p class="new-color" style="font-size: 17px!important; margin-bottom: 30px;">ПРИБЛИЗИТЕЛЬНОЕ КОЛИЧЕСТВО РАЗДАВАЕМОЙ ПОЛИГРАФИИ ОДНИМ ПРОМОУТЕРОМ В ЧАС 100-150 ШТ.</p>
+
+            <table id="tb" class="highlight">
+                <thead>
+                    <tr id="h">
+                        <th>Услуга</th>
+                        <th>Стоимость</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>Раздача листовок в местах скопления людей</th>
+                        <th>80-180 грн/час</th>
+                    </tr>
+                    <tr>
+                        <th>Курьерская доставка полиграфии по почтовым ящикам</th>
+                        <th>0.40 - 1 грн/шт.</th>
+                    </tr>
+                    <tr>
+                        <th>Расклейка объявлений, афиш, плакатов</th>
+                        <th>Цена по запросу</th>
+                    </tr>
+                    <tr>
+                        <th>Распространение хенгеров по дверным ручкам</th>
+                        <th>0.90 грн/шт.</th>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5 class="new-color">Дополнительная информация:</h5>
+
+            <ul class="list_prom">
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Стоимость указана для отдельной взятой услуги, для предварительного просчета;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Окончательная смета промо-проекта рассчитывается в каждом случае индивидуально;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Необходимо учитывать различные факторы повышающие стоимость, такие как минусовая погода на улице, речёвки,
+                    наличие промо-формы для работы промоутера и прочее…</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Сроки исполнения уточнять;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Печать полиграфии предоставляется в готовом виде или оплачивается отдельно от промо-компании;</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">- Стоимость указана без учета НДС.</li>
+            </ul>
+        </div>
+        <div class="row">
+            <img src="images/5-photo-5-1.jpg" class="col s12 l3 row-img">
+            <img src="images/listovki2.jpg" class="col s12 l3 row-img">
+            <img src="images/listovki.jpg" class="col s12 l3 row-img">
+            <img src="images/proticketing_0_90a97_bd4ff02f_xl.jpg" class="col s12 l3 row-img">
+        </div>
+        <div class="container-fluid white">
+            <div class="container">
+                <h5 class="center white purple-text" style="margin: 0 !important; padding-bottom: 60px; padding-top: 30px;">Вы можете связаться с нами по телефону +38 (095) 336 95 29, почте pheugroup@gmail.com или оставить заявку и мы
+                    вам перезвоним
+                </h5>
+            </div>
+        </div>
+        <div class="parallax-container" style="height: 100%!important; z-index: 100; padding: 0 !important;">
+            <div class="parallax">
+                <img src="images/leaves-alt1.jpg">
+            </div>
+            <di class="leave-query center">
+                <div class="row" style="margin-top: 50px;">
+                    <form class="col s12 l6 offset-l3" id='form2'>
+                        <h5 class="teal-text text-lighten-4">Обратная связь</h5>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix purple-text teal-text text-lighten-4">account_circle</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="first_name" name="name" type="text" class="my-border validate"
+                                    required>
+                                <label for="first_name">Имя</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix purple-text">phone</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="phone" type="tel" pattern="^[+, 0-9]+$"
+                                    name="phone" class="my-border validate" required>
+                                <label for="phone">Телефон</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix purple-text">email</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="email" type="email" name="email" class="my-border validate"
+                                    required>
+                                <label for="email">E-mail</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix purple-text">message</i>
+                                <textarea autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="message" name="message" class="my-border validate"
+                                    required></textarea>
+                                <label for="message">Сообщение</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <button type="submit" style="margin-left: 25px;" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l4 s12">
+                        <h5>О нас</h5>
+                        <p>Рекламное Агентство FEO Group имеет большой опыт работы в области рекламы. Мы уверены, что Ваша компания
+                            в лице нашего агентства найдет надежного, качественного и оперативного партнера - для продвижения
+                            Ваших товаров и услуг в городах Украины.</p>
+                        <div class="btn new-btn-2 btn-large modal-trigger" href="#modal1">
+                            <i class="fab cl fa-wpforms"></i>Оставить заявку</div>
+                    </div>
+                    <div class="col l3 offset-l1 s12">
+                        <h5>Услуги</h5>
+                        <ul id="last-ul">
+                                <li>
+                                        <a style="color: white"class="waves-effect waves-light" href="#!">Наружная реклама</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: white"class="waves-effect waves-light" href="#!">Реклама в СМИ</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: white"class="waves-effect waves-light" href="#!"> Реклама в/на транспорте</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: white"class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: white"class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                                    </li>
+                        </ul>
+                        <a href="#!" class="more waves-effect waves-light">Подробнее</a>
+                    </div>
+                    <div class="col l4 s12">
+                        <h5>Время работы:</h5>
+                        <div class="row center">
+                            <ul id="last-ul-2" style="cursor: pointer;">
+                                <div class="day col s3 l3">Понедельник</div>
+                                <div class="time col s9 l9">10:00-18:00</div>
+                                <div class="day col s3 l3">Вторник</div>
+                                <div class="time col s9 l9">10:00-18:00</div>
+                                <div class="day col s3 l3" style="margin-left: -5px;">Среда</div>
+                                <div class="time col s9 l9">10:00-18:00</div>
+                                <div class="day col s3 l3">Четверг</div>
+                                <div class="time col s9 l9">10:00-18:00</div>
+                                <div class="day col s3 l3">Пятница</div>
+                                <div class="time col s9 l9">10:00-18:00</div>
+                                <div class="day col s3 l3">Суббота</div>
+                                <div class="status col s9 l9">Закрыто</div>
+                                <div class="day col s3 l3">Воскресенье</div>
+                                <div class="status col s9 l9">Закрыто</div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row" id="footer-row">
+                        <span class="col s12 l4">© 2018 Copyright Text</span>
+                        <a href="#!" class="col s12 l4 last-link grey-text text-lighten-4">Вы знаете как заказать рекламу?</a>
+                        <a class="grey-text text-lighten-4 col s12 l4" style="font-family: cursive; font-size: 14px;" href="#!">Звоните по телефону: +38 (095) 336 95 29</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- <div class="container-fluid">
+        <div class="row" style="padding: 0!important; margin-top: -43.5px; z-index: -1;">
+            <div style="padding: 0!important; margin: 0!important;" class="col s12" id="app"></div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div style='display: none;' class="fixed-action-btn arrow-up">
+        <a href='#top' class="btn-floating btn-large arrow waves-effect waves-light right">
+            <i class="material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script> -->
+    <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
+    <script src="materialize/js/materialize.min.js"></script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <!-- <script src="js/slider-2.js"></script> -->
+    <script src="js/app.js"></script>
+    <!-- <script src="js/out.js"></script> -->
+    <script src="js/common.js"></script>
+</body>
+
+</html>

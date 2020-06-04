@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Транзитная реклама</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="modal1" class="modal modal-fixed-footer">
+        <form class="col s12" id="form">
+            <div class="modal-content center">
+                <h5 class="purple-text">Обратная связь</h5>
+                <div class="row" style="margin-bottom: 0!important;">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">account_circle</i>
+                        <input id="icon-prefix-1" type="text" name='name' class="validate my-border" required>
+                        <label for="icon-prefix-1" class="purple-text">Имя и компания</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">phone</i>
+                        <input id="icon-telephone" type="tel" pattern="^[+, 0-9]+$" name='phone' class="validate my-border" required>
+                        <label for="icon-telephone" class="purple-text">Телефон</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">email</i>
+                        <input id="email" type="email" name='email' class="validate my-border" required>
+                        <label for="email" class="purple-text">E-mail</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">message</i>
+                        <textarea id="icon-prefix-3" name='message' type="text" class="validate my-border" required></textarea>
+                        <label for="icon-prefix-3" class="purple-text">Ваш Запрос</label>
+                        <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-footer" style="margin-top: 0 !important;">
+                <button type="submit" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                <a class="modal-close waves-effect waves-light red white-text btn-flat">Закрыть</a>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div id="info-wrapper">
+        <div class="container" style="padding-top: 5px;" id="top">
+            <div class="row" style="margin-bottom: 10px!important;">
+                <p class="left col s12 l3 center heading">Рекламное агентство полного цикла FEO Group</p>
+                <span class='col s12 l3 center info tel'>
+                    <i class="fas fa-phone phone"></i>+38 (095) 33 69 529</span>
+                <span class='info col s12 l3 center'>
+                    <i class="far fa-envelope" style='margin-right: 5px;'></i>Pheugroup@gmail.com</span>
+                <div class="col s12 l3 center">
+                    <div class="click modal-trigger" href="#modal1">
+                        <i class="fab fa-wpforms" style="margin-right: 5px;"></i>Заявка</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                </li>
+                    </ul>
+                   
+            </ul>
+            
+                    <ul id="dropdown2" class="dropdown-content">
+                        <li>
+                            <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                        </li>
+                        </ul>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <a href="aboutus.html">О компании</a>
+                </li>
+                <li>
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown2">Наши услуги
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Портфолио</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid" id="for_menu">
+        <nav id='main'>
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.jpg">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down menu">
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Кто мы и как работаем"
+                            href="aboutus.html">О компании</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 8%!important;" class="dropdown-trigger-1 waves-effect waves-light" href="#!" data-target="dropdown1">Наши услуги
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Наши работы, клиенты, разработка макетов, Техтребования"
+                            href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 13%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Оставьте заявку и мы свяжимся с вами"
+                            id="last" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="parallax-container" id="bg">
+        <div class="parallax">
+            <img style="width: 95%;" src="images/tranzit/inter-bg.jpg">
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background: #fff;">
+            <div class="container">
+                    <div class="row" id="hlinks">
+                                <a href="reklof.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Наружная реклама</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="smi.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама СМИ</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="tranzit.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в/на транспорте</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="#!" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Интернет маркетинг</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="#1" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Внутренняя Indoor-реклама</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="aero.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в аэропортах, ЖД вокзалах</a>
+                                <a href="lift.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в домах</a>
+                           
+                        </div>
+                    </div> 
+        <div class="container" style="padding: 20px 0px 20px;">
+            <div class="row">
+                <div class="col s12" style="margin-bottom: 40px;">
+                    <ul class="tabs">
+                        <li class="tab col s4">
+                            <a target="_self" href="tranzit.html">Реклама в метро</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a target="_self" href="marsh.html">Реклама в/на транспорте</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a target="_self" href="inter.html" class="active">Реклама в поездах Интерсити</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid white">
+                <h4 style="margin: 15px;" class="new-color" align="center">Реклама в поездах Интерсити</h4>
+                <div class="divider"></div>
+                <h5 style="margin-top: 30px !important; margin-bottom: 30px;" class="new-color" align="center">Разместим вашу рекламу в межгородских поездах Интерсити!</h5>
+                <p style="padding-bottom: 30px;" class="def-color bug">
+                    Это инновационное решение для Вашего бизнеса - реклама со скоростью 160 км/ч! Пассажиры находятся в пути 5-8 часов и длительный
+                    контакт способствует изучению рекламных посланий и воспринимается достаточно легко. Ваша реклама будет
+                    коммуницировать с пассажирами среднего и выше среднего уровня доходов. Интерсити работает по восьми направлениям
+                    через крупнейшие города Украины: Киев-Харьков-Киев, Киев-Покровск (ч/з Днепр) - Киев, Киве-Запорожье-
+                    Киев, Киев-Константиновка - Киев, Киев-Одесса-Киев, Киев-Кривой Рог - Киев, Киев-Перемышль (ч/з Львов)
+                    - Киев, Киев-Перемышль (ч/з Тернополь, Львов) - Киев. </p>
+                <div class="divider" style="margin-bottom: 30px;"></div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img style="padding: 0 !important;" class="col s12 l6 right" src="images/inter/1.jpg">
+                    <div class="col s12 l6 left inside-text">
+                        <p class="def-color">
+                            <h4 class="new-color">Видеоролики на мониторах</h4>
+                            <span class="bug">Это видеоканал с развлекательно-информационным контентом для пассажиров в первом и втором классе.
+                                В каждом вагоне по 6 мониторов. Блок рекланых роликов появляется на мониторах каждые 20 минут.
+                                Монитор находится в полезрения каждого пассажира, что позволяет беспрерывно и комфортно коммуницировать
+                                с пассажирами. Преимущество в том, что канал переключить невозможно, альтернативных каналов
+                                развлечения нет, трансляция канала непрерывна.</span </p>
+                    </div>
+                </div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img style="padding: 0 !important;" src="images/inter/7.jpg" class="col s12 l6 left">
+                    <div class="col s12 l6 right inside-text">
+                        <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                            <h4 class="new-color">Рекламные постеры</h4>
+                            <span class="bug">Данный формат с рекламой может быть размещён в тамбуре и салоне вагонов первого и второго классов.
+                                <li class="bug">Постеры А1 — размещены в тамбуре;
+                                    <li class="bug">Постеры А2 - розмещены в салоне;
+                                        <li class="bug">Постеры А3 — размещены в салоне, на полочках для багажа;
+                                            <li class="bug">Постеры А4 (Крюков) — размещены в салоне, на полочках для багажа;
+                                                <li class="bug"> Постеры 500х1200 — размещены на потолочных арках, в салоне вагона;</li>
+                                                С данным форматом рекламную информацию можно подать согласно вашей целевой аудитории (возможность размещения в разных классах
+                                                вагонов</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img src="images/inter/6.jpg" class="col s12 l6 right" style="padding: 0 !important;">
+                    <div class="col s12 l6 left inside-text">
+                        <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                            <h4 class="new-color">Бортовой журнал</h4>
+                            <span class="bug">Это информационно-развлекательный контент для пассажиров первого класса, где трафик первого класса
+                                более 100 000 пассажиров/мес. Журнал находится в кармашке кресел и каждый пассажир уделяет
+                                время изучению информации из журнала. Это ежемесячное издание и имеет 10 000 экземпляров.
+                                В журнале до 7 различных рубрик и тематик, пассажиры всегда с интересом просматривают его.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img style="padding: 0 !important;" src='images/inter/3.jpg' class="col s12 l6 left">
+                    <div class="col s12 l6 right inside-text">
+                        <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                            <h5 class="new-color">Наклейки в вагонах</h5>
+                            <span class="bug">Могут быть размещены в салоне первого и второго классов в следующих форматах и локациях:
+                                <li class="bug"> Прозрачные наклейки на раздвижных дверях - формат А3;</li>
+                                <li class="bug"> Наклейки между лампами освещения — размер 10х25 см;</li>
+                                <li class="bug">Наклейки под крючком для одежды — размер А5;</li>
+                                <li class="bug">Наклейки над столиками — размер 4,5х30 см;</li>
+                                <li class="bug">Наклейки на столиках (брендирование) — размер 14х25 см;</li>
+                                <li class="bug">Наклейки на арках над багажной полкой - 4шт. в одном вагоне;</li>
+                                <li class="bug">Наклейки на подлокотниках;</li>
+                                <li class="bug">А3 формат под багажной полкой;</li>
+                                Данные форматы можно таргетировать в зависимости от класса вагонов.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img src="images/inter/2.jpg" class="col s12 l6 right" style="padding: 0 !important;">
+                    <div class="col s12 l6 left inside-text">
+                        <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                            <h4 class="new-color">Вкладка полиграфии</h4>
+                            <p class="bug">Это рекламная листовка, которая находится в каждом кармашке каждого кресла пассажиров и на столиках
+                                в первом и втором классах. Рекоммендованный формат полиграфии А4. Рекламодатель может выбрать
+                                несколько форматов вкладок: в одному из класса вагонов (первый или второй), либо же на отдельный
+                                рейс. </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img style="padding: 0 !important;" src='images/inter/4.jpg' class="col s12 l6 left">
+                    <div class="col s12 l6 right inside-text">
+                        <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                            <h4 class="new-color"> Брендирование поездов Интерсити+ </h4>
+                            <p class="bug">Подобный формат позволит в минимальные сроки ознакомить аудиторию с брендом. Размещение проходит
+                                на 14 движемых составах 1 и 2 классов - общее количество 118 вагонов. Стоимость брендирования
+                                просчитывается индивидуально по запросу, согласно рекламного макета. Заказчик может выбрать
+                                брендирование нескольких форматов:
+                                <li class="bug">100% — 17х0,7 м;
+                                    <li class="bug"> 50% — 8,5х0,7 м;
+                                        <li class="bug"> 30% — 5,5х0,7м.</li> Формат действительно уникальный, масштабный.
+                            </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row grid" data-aos='fade-up'>
+                    <img src="images/inter/5.jpg" class="col s12 l6 right" style="padding: 0 !important;">
+                    <div class="col s12 l6 left inside-text">
+                        <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                            <h4 class="new-color">Промо</h4>
+                            <p class="bug">Промо-акция осуществляется промоутерами по заранее купленным билетам в вагонах 1-го та 2-го классов.
+                                Из расчета на один рейс: с начальной до конечной точки маршрута пассажиров. После 1 – 2 часов
+                                посля начала поездки, промоутеры начинают двигаться по вагонам (в каждом вагоне промо акция
+                                проходит только 1 раз на протяжении поездки). Цена проведения РК согласовывается в индивидуальном
+                                порядке в зависимости от количества промоутеров, и количества рейсов</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid white">
+                <div class="container">
+                    <h5 class="center white purple-text" style="margin: 0 !important; padding-bottom: 60px;">Вы можете связаться с нами по телефону +38 (095) 336 95 29, почте pheugroup@gmail.com или оставить заявку и мы
+                        вам перезвоним
+                    </h5>
+                </div>
+            </div>
+        <div class="parallax-container" style="height: 100%!important; z-index: 100; padding: 0 !important;">
+            <div class="parallax">
+                <img src="images/leaves-alt1.jpg">
+            </div>
+            <div class="leave-query center">
+                <div class="row" style="margin-top: 50px;">
+                    <form class="col s12 l6 offset-l3" id='form2'>
+                        <h5 class="teal-text text-lighten-4">Обратная связь</h5>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix purple-text teal-text text-lighten-4">account_circle</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="first_name" name="name" type="text" class="my-border validate"
+                                    required>
+                                <label for="first_name">Имя</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix purple-text">phone</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="phone" type="tel" pattern="^[+, 0-9]+$"
+                                    name="phone" class="my-border validate" required>
+                                <label for="phone">Телефон</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix purple-text">email</i>
+                                <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="email" type="email" name="email" class="my-border validate"
+                                    required>
+                                <label for="email">E-mail</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 0 !important;">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix purple-text">message</i>
+                                <textarea autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="message" name="message" class="my-border validate"
+                                    required></textarea>
+                                <label for="message">Сообщение</label>
+                                <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                            </div>
+                        </div>
+                        <button type="submit" style="margin-left: 25px;" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s12">
+                    <h5>О нас</h5>
+                    <p>Рекламное Агентство FEO Group имеет большой опыт работы в области рекламы. Мы уверены, что Ваша компания
+                        в лице нашего агентства найдет надежного, качественного и оперативного партнера - для продвижения
+                        Ваших товаров и услуг в городах Украины.</p>
+                    <div class="btn new-btn-2 btn-large modal-trigger" href="#modal1">
+                        <i class="fab cl fa-wpforms"></i>Оставить заявку</div>
+                </div>
+                <div class="col l3 offset-l1 s12">
+                    <h5>Услуги</h5>
+                    <ul id="last-ul">
+                            <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Наружная реклама</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Реклама в СМИ</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!"> Реклама в/на транспорте</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                                </li>
+                                <li>
+                                    <a style="color: white"class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                                </li>
+                    </ul>
+                    <a href="#!" class="more waves-effect waves-light">Подробнее</a>
+                </div>
+                <div class="col l4 s12">
+                    <h5>Время работы:</h5>
+                    <div class="row center">
+                        <ul id="last-ul-2" style="cursor: pointer;">
+                            <div class="day col s3 l3">Понедельник</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Вторник</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3" style="margin-left: -5px;">Среда</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Четверг</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Пятница</div>
+                            <div class="time col s9 l9">10:00-18:00</div>
+                            <div class="day col s3 l3">Суббота</div>
+                            <div class="status col s9 l9">Закрыто</div>
+                            <div class="day col s3 l3">Воскресенье</div>
+                            <div class="status col s9 l9">Закрыто</div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row" id="footer-row">
+                    <span class="col s12 l4">© 2018 Copyright Text</span>
+                    <a href="#!" class="col s12 l4 last-link grey-text text-lighten-4">Вы знаете как заказать рекламу?</a>
+                    <a class="grey-text text-lighten-4 col s12 l4" style="font-family: cursive; font-size: 14px;" href="#!">Звоните по телефону: +38 (095) 336 95 29</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div style='display: none;' class="fixed-action-btn arrow-up">
+        <a href='#top' class="btn-floating btn-large arrow waves-effect waves-light right">
+            <i class="material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/tab-script.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine',
+            duration: 700
+        });
+    </script>
+
+</body>
+
+</html>

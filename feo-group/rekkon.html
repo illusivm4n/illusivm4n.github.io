@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/outside.css"> -->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <!-- <link rel="stylesheet" href="css/slider_out.css"> -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Наружная реклама</title>
+</head>
+
+<body>
+
+    <div id="modal1" class="modal modal-fixed-footer">
+        <form class="col s12" id="form">
+            <div class="modal-content center">
+                <h5 class="purple-text">Обратная связь</h5>
+                <div class="row" style="margin-bottom: 0!important;">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">account_circle</i>
+                        <input id="icon-prefix-1" type="text" name='name' class="validate my-border" required>
+                        <label for="icon-prefix-1" class="purple-text">Имя и компания</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">phone</i>
+                        <input id="icon-telephone" type="tel" pattern="^[+, 0-9]+$" name='phone' class="validate my-border" required>
+                        <label for="icon-telephone" class="purple-text">Телефон</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">email</i>
+                        <input id="email" type="email" name='email' class="validate my-border" required>
+                        <label for="email" class="purple-text">E-mail</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix purple-text">message</i>
+                        <textarea id="icon-prefix-3" name='message' type="text" class="validate my-border" required></textarea>
+                        <label for="icon-prefix-3" class="purple-text">Ваш Запрос</label>
+                        <span class="helper-text" data-error="Wrong!" data-success="Right!"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-footer" style="margin-top: 0 !important;">
+                <button type="submit" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                <a class="modal-close waves-effect waves-light red white-text btn-flat">Закрыть</a>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div id="info-wrapper">
+        <div class="container" style="padding-top: 5px;" id="top">
+            <div class="row" style="margin-bottom: 10px!important;">
+                <p class="left col s12 l3 center heading">Рекламное агентство полного цикла FEO Group</p>
+                <span class='col s12 l3 center info tel'>
+                    <i class="fas fa-phone phone"></i>+38 (095) 33 69 529</span>
+                <span class='info col s12 l3 center'>
+                    <i class="far fa-envelope" style='margin-right: 5px;'></i>Pheugroup@gmail.com</span>
+                <div class="col s12 l3 center">
+                    <div class="click modal-trigger" href="#modal1">
+                        <i class="fab fa-wpforms" style="margin-right: 5px;"></i>Заявка</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                </li>
+                    </ul>
+                   
+            </ul>
+            
+                    <ul id="dropdown2" class="dropdown-content">
+                        <li>
+                            <a class="waves-effect waves-light" href="rekkon.html">Наружная реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="smi.html">Реклама в СМИ</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="tranzit.html"> Реклама в/на транспорте</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="aero.html">Реклама в аэропортах, ЖД вокзалах</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="lift.html">Реклама в домах</a>
+                        </li>
+                        </ul>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <a href="aboutus.html">О компании</a>
+                </li>
+                <li>
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown2">Наши услуги
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Портфолио</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid" id="for_menu">
+        <nav id='main'>
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.jpg">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down menu">
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Кто мы и как работаем"
+                            href="aboutus.html">О компании</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 8%!important;" class="dropdown-trigger-1 waves-effect waves-light" href="#!" data-target="dropdown1">Наши услуги
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 10%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Наши работы, клиенты, разработка макетов, Техтребования"
+                            href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a style="padding-top: 13%!important;" class="tooltipped waves-effect waves-light" data-position="bottom" data-tooltip="Оставьте заявку и мы свяжимся с вами"
+                            id="last" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container valign-wrapper" id="bg">
+        <div class="parallax">
+            <img src="images/naruzhka-alt.png">
+        </div>
+    </div>
+   
+    <div class="container-fluid" style="background: #ffffff;">
+            <div class="container">
+                    <div class="row" id="hlinks">
+                                <a href="reklof.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Наружная реклама</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="smi.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама СМИ</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="tranzit.html" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в/на транспорте</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="#!" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Интернет маркетинг</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="#1" class="col s12 l1 " style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Внутренняя Indoor-реклама</a>
+                                <!-- <div class="col s1 l1"></div>  -->
+                                <a href="aero.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в аэропортах, ЖД вокзалах</a>
+                                <a href="lift.html" class="col s12 l1" style="margin-left: 50px; font-size: 12px; text-align: center;  color: purple!important; font-family:'Lora',serif; ">Реклама в домах</a>
+                           
+                        </div>
+                    </div> 
+            <div class="row">
+                    <div class="col s12" style="margin-bottom: 40px;">
+                        <ul class="tabs">
+                            <li class="tab col s3 l6">
+                                <a target="_self" href="rekkon.html" class="active"> Рекламные конструкции города</a>
+                            </li>
+                            <li class="tab col s3 l6">
+                                <a target="_self" href="reklof.html" >Рекламное оформление</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+                <h4 class="new-color" style='margin-bottom: 30px;' align="center">Рекламное конструкции города</h4>        
+        <div class="container descr">
+            <p class="def-color" style="padding-bottom: 30px; font-family: 'Lora', serif;">По оценкам специалистов наружная реклама является наиболее эффективным средством продвижения товара или услуги,
+                а так же формирования имиджа о компании. Преимущества «наружки»: охват аудитории, глубина воздействия и сравнительно
+                невысокая цена.</p>
+            <p class="def-color" style="padding-bottom: 30px; font-size: 15px; font-family: 'Lora', serif;">Запустить рекламную кампанию с «FEO Group» — значит доверить дело специалистам, МЫ ПРОФЕССИОНАЛЬНО ОРГАНИЗУЕМ
+                ПРОЦЕСС «ОТ и ДО». Разработаем для Вас рекламный проект, адаптированный под вашу целевую аудиторию, наши
+                дизайнеры разработают для вас оригинальный макет, после напечатаем необходимую рекламную продукцию под выбранные
+                вами рекламные площади. Это значит, что ваша компания получит МАКСИМАЛЬНЫЙ РЕЗУЛЬТАТ.</p>
+
+            <h4 class="new-color" style='margin-bottom: 30px;'>Наиболее распространены следующие типы:</h4>
+            <div class="row grid" data-aos='fade-up'>
+                <img style="padding: 0 !important;" class="col s12 l6 right" src="images/car.png">
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Щит, призматрон </h4>отдельно стоящая конструкция, освещаемая установленными к ней прожекторами.
+                        Существуют статичные (щиты) и динамичные призмы (составленные из трёх ламелей с углом поворота 120
+                        градусов). Стандартный размер 3м*6м, 4м*8м, 5м*12м. Имеет две стороны А (справа по направлению) и
+                        Б (слева перекрывается встречным транспортным потоком).
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img style="padding: 0 !important;" src='images/wall.png' class="col s12 l6 left">
+                <div class="col s12 l6 right inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Брандмауэр </h4>это глухая стена здания с рекламной конструкцией. Как правило, на стену подвешивается
+                        рекламный плакат из винила или ткани. Данный вид «наружки» считается одним из самых эффективных и
+                        оптимальных. Эксперты отмечают высокую эффективность брандмауэра для повышения узнаваемости бренда
+                        и улучшения имиджа. Именно здесь можно создать креативное и информативное послание.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img src="images/john.jpg" class="col s12 l6 right" style="padding: 0 !important;">
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Сити-лайт, сити-скролл</h4>представляющий собой статичный или динамичный световой короб размером
+                        1,2м*1,8м, производит эффективное рекламное воздействие, как на пешеходов, так и на транспортные
+                        потоки, т.к. устанавливается на тротуарах, в непосредственной близости от проезжей части в основном
+                        в центральной части города.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img style="padding: 0 !important;" src='images/chuviha.jpg' class="col s12 l6 left">
+                <div class="col s12 l6 right inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h5 class="new-color">Реклама на остановочных павильонах общественного транспорта.</h5> Устанавливается на остановках общественного
+                        транспорта, обычно размещаются на плоскостях, подлежащих остеклению и освещению формата 1,2м*1,8м.
+                        Дополнительно можно рассматривать полное брендирование или отдельных участков остановки под запрос.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img src="images/scroll.jpg" class="col s12 l6 right" style="padding: 0 !important;">
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Скролл</h4>динамичная световая конструкция, по типу "электронный журнал", имеет до 5 сюжетов, чередующихся
+                        друг за другом с интервалом 10-15 сек., стандартный размер 2,32м*3,14м. Ещё скроллеры бывают сити-
+                        формата размеров 1,2м*1,8м. Интенсивная подсветка добавляет плакатам яркости и привлекает еще больше
+                        внимания.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img style="padding: 0 !important;" src='images/victory.png' class="col s12 l6 left">
+                <div class="col s12 l6 right inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Бэклайт</h4>статичная световая конструкция по типу «билборд». Имеет один сюжет и яркое, интенсивное
+                        и равномерное освещение плаката. Наиболее популярные размеры 6м*4м, 2м*4м, 4м*8м. Бэклайты и скроллы
+                        стали прямой альтернативой привычным рекламным щитам формата 3м на 6м.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img src="images/bridge.png" class="col s12 l6 right" style="padding: 0 !important;">
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Рекламная арка/мост</h4>устанавливается непосредственно над дорогой на автомагистралях и трассах,
+                        на путепроводах и мостах с интенсивным трафиком. Стороны А и Б равноценны по доступности просмотра.
+                        Именно рекламная информация на арке или мосте воспринимается мгновенно, даже если водитель заметил
+                        ее краем глаза.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up' style="border-bottom: 1px solid #E0E0E0;">
+                <img style="padding: 0 !important;" src='images/globus.png' class="col s12 l6 left">
+                <div class="col s12 l6 right inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Рекламные конструкции в переходах (вывески, бэклайты) </h4>Хороший способ продвижения товаров и услуг
+                        представляет собой использование рекламы в переходах. Огромное скопление людей в течение всего дня
+                        проходит через них. Кроме жителей города, спускаться в переходы могут и приезжие, что значительно
+                        расширяет круг возможных клиентов.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img src="images/mts.png" class="col s12 l6 right" style="padding: 0 !important;">
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Крышная установка </h4>размещаются на крышах и фасадах зданий. Это новый современный способ посмотреть
+                        то, где и как эффективно действуют рекламные надписи. Если вы хотите, чтобы ваша реклама могла попасть
+                        на крышу какого-либо здания, то это вполне реально. Этот вид рекламы повышает имидж компании, и вы
+                        сможете увидеть ее даже из самолета.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img style="padding: 0 !important;" src='images/video-board.png' class="col s12 l6 left">
+                <div class="col s12 l6 right inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Видеореклама на бордах </h4>это видеоэкраны установленные в людных местах и на стенах зданий. Видеомониторы
+                        транслируют рекламные ролики, которые компонуются в блоки по 10-20 минут и повторяются много раз
+                        в день.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img src="images/cola.png" class="col s12 l6 right" style="padding: 0 !important;">
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Рекламное граффити (муралы) </h4>это масштабная настенная граффити-роспись, делается, как правило,
+                        частично или на весь фасад, стену. Проект рисуется на длительный период от одного года до трех лет.
+                        Существует несколько способов нанесения вижуала красками.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" data-aos='fade-up'>
+                <img style="padding: 0 !important;" src='images/mcd-str.png' class="col s12 l6 left">
+                <div class="col s12 l6 right inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Рекламное трафаретное граффити</h4>вижуал наносится красками на асфальте улиц города. Размеры могут
+                        быть от минимальных, в качестве указателя, до масштабных, запоминающихся.
+                    </p>
+                </div>
+            </div>
+            <div class="row grid" id="last-row" data-aos='fade-up'>
+                <div class="col s12 l6 left inside-text">
+                    <p class="def-color" style="font-family: 'Lora', serif; font-size: 15px;">
+                        <h4 class="new-color">Рекламное плёночное граффити</h4>наносится на зданиях, асфальте улиц города, в/на помещениях, на
+                        автомобили. В/на помещениях, как правило, граффити наносится на окна, полы, стены, различные предметы.
+                        Всегда выглядит красочно, креативно и привлекает внимание окружающих.
+                    </p>
+                </div>
+                <img style="padding: 0 !important;" src='images/wall_2.png' class="col s12 l6 right">
+            </div>
+            <div class="row">
+                <div class="divider"></div>
+            </div>
+            <p class="def-color center" style="font-family: 'Lora', serif; font-size: 15px; padding-top: 30px; padding-bottom: 50px;">Существует еще масса различных вариаций «наружки», например, транзитная реклама, реклама на уличной мебели и
+                прочее, менеджеры агентства наружной рекламы «FEO Group» с радостью расскажут Вам о преимуществах того или
+                иного носителя.</p>
+            <div class="row">
+                <div class="divider"></div>
+            </div>
+            <h4 class="new-color" style="margin-bottom: 50px;">Планирование кампании наружной рекламы в Украине</h4>
+
+            <p style="font-family: 'Lora', serif; font-size: 15px;" class="def-color">При составлении плана наружной рекламы крайне важно объединить «наружку» с другими средствами информации, чтобы
+                обеспечить максимальную эффективность и поддержку других средств рекламы и продвижения товара. Планирование
+                и исполнение наружной рекламы следует многим основным правилам рекламы других СМИ. Однако есть ряд уникальных
+                особенностей, которые учитывают специалисты компании FEO Group:</p>
+
+            <ul style="margin-top: 50px;" id="plan-v-ukr">
+                <li style="font-family: 'Lora', serif; font-size: 15px;">1. География размещения. Как правило, территория определяются округами и схемами уличного движения, которые
+                    первостепенно необходимо задействовать.</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">2. Целевая аудитория. Необходимо наиболее точно нацелиться на аудиторию, которая передвигается и совершает
+                    поездки.
+                </li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">3. Планирование. Спрос на наружную рекламу в городах Украины очень насыщен. Чтобы найти наиболее выгодные
+                    места размещения Вашей рекламы лучше забронировать программу заблаговременно. Крупные фирмы планируют
+                    сразу на год вперед, занимаясь этим вопросом в ноябре-декабре. В агентстве «FEO Group» это достаточно
+                    частая практика. Тут стоит указать, что стоимость наружной рекламы и рекламной кампании в целом напрямую
+                    зависит от количества носителей.</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">4. Дизайн. Подготовить и согласовать дизайн проекты и запустить их в печать. Не стоит забывать макеты для
+                    наружной рекламы должны быть достаточно простыми как по форме, так и по содержанию. Избыточная информация
+                    рассеивает внимание и мешает эффективно воздействовать на аудиторию.</li>
+                <li style="font-family: 'Lora', serif; font-size: 15px;">5. Монтаж. После установки рекламных плакатов должна быть сделана проверка их расположения во всех местах
+                    размещения. Заказав наружную рекламу в FEO Group, Вы получите полный фотоотчет размещения и можете не
+                    сомневаться в своевременности и качестве монтажа. Мы привыкли делать свою работу на высшем уровне.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid white">
+        <div class="container">
+            <h5 class="center white purple-text" style="margin: 0 !important; padding-bottom: 60px;">Вы можете связаться с нами по телефону +38 (095) 336 95 29, почте pheugroup@gmail.com или оставить заявку и мы
+                вам перезвоним
+            </h5>
+        </div>
+    </div>
+    <div class="parallax-container" style="height: 100%!important; z-index: 100; padding: 0 !important;">
+        <div class="parallax">
+            <img src="images/leaves-alt1.jpg">
+        </div>
+        <di class="leave-query center">
+            <div class="row" style="margin-top: 50px;">
+                <form class="col s12 l6 offset-l3" id='form2'>
+                    <h5 class="teal-text text-lighten-4">Обратная связь</h5>
+                    <div class="row" style="margin-bottom: 0 !important;">
+                        <div class="input-field col s12 l6">
+                            <i class="material-icons prefix purple-text teal-text text-lighten-4">account_circle</i>
+                            <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="first_name" name="name" type="text" class="my-border validate"
+                                required>
+                            <label for="first_name">Имя</label>
+                            <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                        </div>
+                        <div class="input-field col s12 l6">
+                            <i class="material-icons prefix purple-text">phone</i>
+                            <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="phone" type="tel" pattern="^[+, 0-9]+$"
+                                name="phone" class="my-border validate" required>
+                            <label for="phone">Телефон</label>
+                            <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 0 !important;">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix purple-text">email</i>
+                            <input autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="email" type="email" name="email" class="my-border validate"
+                                required>
+                            <label for="email">E-mail</label>
+                            <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 0 !important;">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix purple-text">message</i>
+                            <textarea autocomplete="off" style="margin-bottom: 0 !important;" placeholder="" id="message" name="message" class="my-border validate"
+                                required></textarea>
+                            <label for="message">Сообщение</label>
+                            <span class="helper-text" data-error="Заполните поле!" data-success="Отлично!"></span>
+                        </div>
+                    </div>
+                    <button type="submit" style="margin-left: 25px;" class="waves-effect waves-light purple white-text btn-flat">Отправить</button>
+                </form>
+            </div>
+    </div>
+    </div>
+
+                                <footer class="page-footer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col l4 s12">
+                                                <h5>О нас</h5>
+                                                <p>Рекламное Агентство FEO Group имеет большой опыт работы в области рекламы.
+                                                    Мы уверены, что Ваша компания в лице нашего агентства найдет надежного,
+                                                    качественного и оперативного партнера для продвижения Ваших товаров и
+                                                    услуг в городах Украины.</p>
+                                                <div class="btn new-btn-2 btn-large modal-trigger" href="#modal1">
+                                                    <i class="fab cl fa-wpforms"></i>Оставить заявку</div>
+                                            </div>
+                                            <div class="col l3 offset-l1 s12">
+                                                <h5>Услуги</h5>
+                                                <ul id="last-ul">
+                                                        <li>
+                                                                <a style="color: white"class="waves-effect waves-light" href="#!">Наружная реклама</a>
+                                                            </li>
+                                                            <li>
+                                                                <a style="color: white"class="waves-effect waves-light" href="#!">Реклама в СМИ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a style="color: white"class="waves-effect waves-light" href="#!"> Реклама в/на транспорте</a>
+                                                            </li>
+                                                            <li>
+                                                                <a style="color: white"class="waves-effect waves-light" href="#!">Интернет маркетинг</a>
+                                                            </li>
+                                                            <li>
+                                                                <a style="color: white"class="waves-effect waves-light" href="#!">Внутренняя Indoor-реклама</a>
+                                                            </li>
+                                                </ul>
+                                                <a href="#!" class="more waves-effect waves-light">Подробнее</a>
+                                            </div>
+                                            <div class="col l4 s12">
+                                                <h5>Время работы:</h5>
+                                                <div class="row center">
+                                                    <ul id="last-ul-2" style="cursor: pointer;">
+                                                        <div class="day col s3 l3">Понедельник</div>
+                                                        <div class="time col s9 l9">10:00-18:00</div>
+                                                        <div class="day col s3 l3">Вторник</div>
+                                                        <div class="time col s9 l9">10:00-18:00</div>
+                                                        <div class="day col s3 l3" style="margin-left: -5px;">Среда</div>
+                                                        <div class="time col s9 l9">10:00-18:00</div>
+                                                        <div class="day col s3 l3">Четверг</div>
+                                                        <div class="time col s9 l9">10:00-18:00</div>
+                                                        <div class="day col s3 l3">Пятница</div>
+                                                        <div class="time col s9 l9">10:00-18:00</div>
+                                                        <div class="day col s3 l3">Суббота</div>
+                                                        <div class="status col s9 l9">Закрыто</div>
+                                                        <div class="day col s3 l3">Воскресенье</div>
+                                                        <div class="status col s9 l9">Закрыто</div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-copyright">
+                                        <div class="container">
+                                            <div class="row" id="footer-row">
+                                                <span class="col s12 l4">© 2018 Copyright Text</span>
+                                                <a href="#!" class="col s12 l4 last-link grey-text text-lighten-4">Вы знаете как заказать рекламу?</a>
+                                                <a class="grey-text text-lighten-4 col s12 l4" style="font-family: cursive; font-size: 14px;" href="#!">Звоните по телефону: +38 (095) 336 95 29</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+                                <div style='display: none;' class="fixed-action-btn arrow-up">
+                                    <a href='#top' class="btn-floating btn-large arrow waves-effect waves-light right">
+                                        <i class="material-icons">arrow_upward</i>
+                                    </a>
+                                </div>
+
+
+                                <script src="js/jquery-3.2.1.min.js"></script>
+                                <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+                                <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> -->
+                                <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script> -->
+                                <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
+                                <script src="materialize/js/materialize.min.js"></script>
+                                <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script> -->
+                                <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+                                <script src="aos-master/dist/aos.js"></script>
+                                <script type="text/javascript" src="slick/slick.min.js"></script>
+                                <!-- <script src="js/index.js"></script> -->
+                                <!-- <script src="js/slider-2.js"></script> -->
+                                <script src="js/app.js"></script>
+                                <!-- <script src="js/out.js"></script> -->
+                                <script src="js/common.js"></script>
+
+                                <script>
+                                    AOS.init({
+                                        easing: 'ease-in-out-sine',
+                                        duration: 500
+                                    });
+                                </script>
+</body>
+
+</html>
